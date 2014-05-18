@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+
+@import 'mixins/_selection.scss';
+@import 'mixins/_breakpoints.scss';
+
+//----------------------------------*\
+// BOURBON+NEAT
+//----------------------------------*/
+
+@import "vendor/bourbon/bourbon"; // or "bourbon" when in Rails
+@import "config/_grid-settings.scss";
+@import "vendor/neat/neat"; // or "neat" when in Rails
+
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+
+// Config modules
+@import 'config/_vars.scss';
+@import 'config/_clearfix.scss';
+@import 'config/_normalize.scss';
+
+//----------------------------------*\
+// COMPONENTS
+//----------------------------------*/
+
+@import 'components/_print.scss';
+@import 'components/_grid.scss';
+@import 'components/_typography.scss';
+
+@import 'components/_images.scss';
+
+@import 'components/_articles_list.scss';

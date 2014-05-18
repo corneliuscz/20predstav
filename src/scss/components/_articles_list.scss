@@ -1,0 +1,24 @@
+ul.articles_list {
+  list-style-type:  none;
+  margin:           0;
+  padding:          0;
+}
+
+li.articles_list-item {
+  font-family: $fontstack-sans;
+  
+  a {
+    color: #222;
+    text-decoration: none;
+  }
+  
+  h2 {
+      text-transform: uppercase;
+      text-rendering: optimizeLegibility;
+    
+    span {
+      font-weight: bold;
+    }
+  }
+}
+

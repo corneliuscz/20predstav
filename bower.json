@@ -1,0 +1,9 @@
+{
+  "name": "20predstav.eu",
+  "version": "0.1.0",
+  "dependencies": {
+    "modernizr": "~2.8.1",
+    "jquery": "~1.11.1",
+    "normalize-css": "~3.0.1"
+  }
+}

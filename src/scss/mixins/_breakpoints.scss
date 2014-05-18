@@ -1,0 +1,39 @@
+/* 
+ * Breakpoint mixin by Jens Ahrengot Boddum (http://ahrengot.com/web-development/sass-breakpoint-mixin/)
+ */
+
+@mixin breakpoint($point, $value: 0) {
+	@if $point == mobile { // 320px
+		@media (min-width: 20em) { @content; }
+	}
+
+	@else if $point == mobile-horizontal { // 480px
+		@media (min-width: 30em) { @content; }
+	}
+
+	@else if $point == tablet {  // 768px
+		@media (min-width: 48em) { @content; }
+	}
+
+	@else if $point == tablet-horizontal { //1024px
+		@media (min-width: 64em) { @content; }
+	}
+	
+	@else if $point == desktop { //1280px
+		@media (min-width: 80em) { @content; }
+	}
+
+	@else if $point == desktop-wide {  //1500px
+		@media (min-width: 93.75em) { @content; }
+	}
+
+	@else {
+		@media ($point: $value) { @content; }
+	}
+}
+
+@mixin between-breakpoints($min, $max) {
+	@media (min-width: $min) and (max-width: $max) {
+		@content;
+	}
+}
