@@ -1,0 +1,23 @@
+nav {
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  li {
+    margin: 0;
+    padding: modular-scale(1em,  -1, 1.618) 1.618em;
+    border-bottom: 1px dashed $color-secondary-background;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-primary-nav;
+    text-transform: uppercase;
+  }
+}
+
+.logo {
+    padding: 1.618em;
+}

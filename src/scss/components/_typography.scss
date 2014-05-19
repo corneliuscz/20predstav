@@ -35,18 +35,18 @@
 
 @font-face {
   font-family: 'Vollkorn';
-  src: url('../fonts/vollkorn-bold-webfont.eot');
-  src: url('../fonts/vollkorn-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vollkorn-bold-webfont.woff') format('woff');
+  src: url('../fonts/vollkorn-semibold-webfont.eot');
+  src: url('../fonts/vollkorn-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vollkorn-semibold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Vollkorn';
-  src: url('../fonts/vollkorn-bolditalic-webfont.eot');
-  src: url('../fonts/vollkorn-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vollkorn-bolditalic-webfont.woff') format('woff');
+  src: url('../fonts/vollkorn-semibolditalic-webfont.eot');
+  src: url('../fonts/vollkorn-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vollkorn-semibolditalic-webfont.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
@@ -91,16 +91,16 @@
   font-style: italic;
 }
 
-$fontstack-serif: 'Vollkorn', Georgia, 'Times New Roman', Times, serif; 
-$fontstack-sans: 'Clear Sans', Helvetica, Arial, sans-serif;
+$fontstack-serif: 'Vollkorn', Georgia, Times, 'Times New Roman', serif;
+$fontstack-sans: 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 
 html {font-size: 1em;}
 
 body {
-  background-color: #fefefe;
+  background-color: $color-primary-background;
   font-family: $fontstack-sans;
   line-height: 1.618;
-  color: #222;
+  color: $color-primary-text;
 }
 
 p {margin-bottom: 1.3em; }
@@ -110,14 +110,14 @@ h1, h2, h3, h4 {
   font-family: $fontstack-serif;
   font-weight: 400;
   line-height: 1.2;
+  color: $color-primary-headers;
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0.87em;
   font-size: 3.157em;
   font-weight: bold;
-  color: #17c57d;
-  
+
   small {
     display: block;
     font-style: italic;
@@ -139,3 +139,23 @@ li { margin: 0.3em; }
  * List of articles
  */
 
+
+
+/*
+ * Predstavy
+ */
+
+.predstava {
+  font-family: Georgia, $fontstack-serif;
+  font-size: 1.125em;
+
+  ul, ol {
+    padding-left: 1.618em;
+    margin-bottom: modular-scale(1em,  -1, 1.618);
+  }
+
+}
+
+aside {
+  font-size: em(14px);
+}

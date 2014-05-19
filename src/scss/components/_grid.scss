@@ -1,6 +1,7 @@
 
 div.container {
   @include outer-container;
+  position: relative;
 }
 
 header {
@@ -14,6 +15,11 @@ header {
   }
 }
 
+main, main.no-sidebar {
+  background-color: $color-secondary-background;
+  padding: 2.618%;
+}
+
 main {
   @include span-columns(4);
 
@@ -25,13 +31,32 @@ main {
   }
 }
 
+main.no-sidebar {
+  @include span-columns(4);
+
+  @include media($mobilew) {
+    @include span-columns(4);
+  }
+  @include media($tablet) {
+    @include span-columns(6);
+  }
+}
+
 aside {
+  background-color: $color-secondary-background;
+  padding: 2.618%;
+
   @include span-columns(4);
 
   @include media($mobilew) {
     @include span-columns(1);
   }
+
   @include media($tablet) {
     @include span-columns(2);
+
+    height: 100%;
+    position: absolute;
+    right: 0px;
   }
 }
