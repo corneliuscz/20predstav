@@ -271,6 +271,27 @@ module.exports = function (grunt) {
     },
 
     /**
+     * doT.js Template engine building the website out of components
+     * https://github.com/cambridge-healthcare/grunt-stencil
+     */
+    stencil: {
+      main: {
+        options: {
+          partials: 'src/includes',
+          templates: 'src/templates'
+        },
+        files: [
+          {
+            expand: true,
+            src: 'src/pages/*',
+            dest: 'app',
+            ext: '.html'
+          }
+        ]
+      }
+    }
+
+    /**
      * Runs tasks against changed watched files
      * https://github.com/gruntjs/grunt-contrib-watch
      * Watching development files and run concat/compile tasks
@@ -304,6 +325,7 @@ module.exports = function (grunt) {
    * Run `grunt` on the command line
    */
   grunt.registerTask('default', [
+    'stencil',
     'sass:dev',
     'bower:dev',
     'autoprefixer:dev',
@@ -321,6 +343,7 @@ module.exports = function (grunt) {
    * Then compress all JS/CSS files
    */
   grunt.registerTask('build', [
+    'stencil',
     'sass:dist',
     'bower:dist',
     'autoprefixer:dist',

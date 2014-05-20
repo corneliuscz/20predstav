@@ -8,16 +8,24 @@ nav {
   li {
     margin: 0;
     padding: modular-scale(1em,  -1, 1.618) 1.618em;
-    border-bottom: 1px dashed $color-secondary-background;
   }
 
   a {
     text-decoration: none;
     color: $color-primary-nav;
     text-transform: uppercase;
+    border-bottom: 1px dashed $color-secondary-background;
+  }
+
+  a:hover {
+    border-bottom: 1px solid $color-primary-nav;
   }
 }
 
 .logo {
     padding: 1.618em;
+}
+
+.svglogo {
+  fill: $color-primary-nav;
 }

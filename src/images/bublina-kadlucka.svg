@@ -24,12 +24,12 @@
      id="defs3261">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath3001">
+       id="clipPath3777">
       <path
          inkscape:connector-curvature="0"
-         id="path3003"
-         d="M 177,-47.8 C 107,-47.8 49.9,9.15 49.9,79.5 49.9,112 62.3,142 82.5,165 l -0.1,0 c 34.6,41 95.6,56 135.6,57 -8,-5 -15,-11 -21,-17 19,-2 36,-10 52,-20 -17,-15 -28,-37 -28,-61 0,-43.7 35,-79.4 78,-80.7 -15,-52.69 -64,-91.1 -122,-91.1 z"
-         style="fill:#1c2422;fill-opacity:0.32" />
+         id="path3779"
+         d="M 176,-47.8 C 106,-47.8 49.9,9.46 49.9,79.8 49.9,143 96.1,197 158,207 c -6,4 -14,9 -21,15 34,0 76,-10 114,-38 -18,-14 -29,-37 -29,-62 0,-42.2 33,-77.8 76,-79.7 -16,-52.04 -64,-90.1 -122,-90.1 z"
+         style="fill:#67a6a6" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.41"
-     inkscape:cx="105"
-     inkscape:cy="21"
+     inkscape:zoom="1.99"
+     inkscape:cx="215"
+     inkscape:cy="117"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,23 +72,30 @@
      id="layer1"
      transform="translate(-49.947253,48.139079)">
     <image
-       y="-127"
-       x="-473"
+       y="-150"
+       x="-563"
        id="image2998"
        xlink:href="file:///D:/wamp/www/20predstav/src/images/kadlucka-upr.jpg"
-       height="698"
-       width="1.04e+003"
-       clip-path="url(#clipPath3001)" />
+       height="787"
+       width="1170"
+       clip-path="url(#clipPath3777)"
+       transform="translate(0.047,-0.139)" />
     <path
-       d="m 301.87823,56.08527 c -37.59655,0 -68.03246,30.485269 -68.03246,68.07268 0,17.37602 6.49887,33.20547 17.20967,45.2398 l -0.23583,0.19195 c 2.52825,2.57761 5.13511,4.89929 7.75477,7.08386 21.22964,17.68131 45.16668,23.07235 64.47682,23.26979 -4.21375,-2.63246 -7.99059,-5.44589 -11.31772,-8.42385 32.92029,-4.77681 58.21377,-33.11955 58.21377,-67.36338 -0.002,-37.585581 -30.47978,-68.07085 -68.06902,-68.07085 z"
+       inkscape:connector-curvature="0"
+       id="path3760"
+       d="m 177,-518 c -70,0 -127.1,57 -127.1,127 0,33 12,63 33,86 l -1,0 c 35.1,41 96.1,56 136.1,57 -8,-5 -15,-11 -21,-17 19,-2 36,-10 52,-20 -17,-15 -28,-37 -28,-61 0,-44 35,-79 78,-81 -15,-52 -64,-91 -122,-91 z"
+       style="fill:#1c2422;fill-opacity:0.32" />
+    <path
+       d="m 301,54 c 38,0 68,30.5 68,68 0,48 -44,76 -89,76 4,-3 8,-6 11,-8 -33,-5 -58,-34 -58,-68 0,-37.5 30,-68 68,-68 z"
        id="path151"
        inkscape:connector-curvature="0"
-       style="fill:#a4a875;fill-opacity:1" />
+       style="fill:#67a6a6;fill-opacity:1;stroke:none"
+       sodipodi:nodetypes="scccss" />
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Vollkorn Medium;-inkscape-font-specification:'Vollkorn Medium, Oblique'"
        x="302.47495"
-       y="115.84821"
+       y="114.84821"
        id="text4174"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
@@ -96,11 +103,11 @@
          sodipodi:role="line"
          id="tspan4176"
          x="302.47495"
-         y="115.84821"
+         y="114.84821"
          style="font-size:24px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;font-family:Vollkorn Medium;-inkscape-font-specification:'Vollkorn Medium, Oblique'">Roman</tspan><tspan
          sodipodi:role="line"
          x="302.47495"
-         y="145.84821"
+         y="144.84821"
          id="tspan4178"
          style="font-size:24px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;font-family:Vollkorn Medium;-inkscape-font-specification:'Vollkorn Medium, Oblique'">Kadlučka</tspan></text>
   </g>

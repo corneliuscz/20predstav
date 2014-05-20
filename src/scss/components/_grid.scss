@@ -15,6 +15,17 @@ header {
   }
 }
 
+footer {
+  @include span-columns(4);
+
+  @include media($mobilew) {
+    @include span-columns(6);
+  }
+  @include media($tablet) {
+    @include span-columns(8);
+  }
+}
+
 main, main.no-sidebar {
   background-color: $color-secondary-background;
   padding: 2.618%;

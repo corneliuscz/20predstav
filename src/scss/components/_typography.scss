@@ -35,6 +35,24 @@
 
 @font-face {
   font-family: 'Vollkorn';
+  src: url('../fonts/vollkorn-medium-webfont.eot');
+  src: url('../fonts/vollkorn-medium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vollkorn-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('../fonts/vollkorn-mediumitalic-webfont.eot');
+  src: url('../fonts/vollkorn-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vollkorn-mediumitalic-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
   src: url('../fonts/vollkorn-semibold-webfont.eot');
   src: url('../fonts/vollkorn-semibold-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/vollkorn-semibold-webfont.woff') format('woff');
@@ -87,11 +105,14 @@
   src: url('../fonts/ClearSans-BoldItalic.eot');
   src: url('../fonts/ClearSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
        url('../fonts/ClearSans-BoldItalic.woff') format('woff');
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic;
 }
 
-$fontstack-serif: 'Vollkorn', Georgia, Times, 'Times New Roman', serif;
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin-ext);
+
+$fontstack-serif: Georgia, Times, 'Times New Roman', serif;
 $fontstack-sans: 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 
 html {font-size: 1em;}
@@ -107,7 +128,7 @@ p {margin-bottom: 1.3em; }
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-family: $fontstack-serif;
+  font-family: 'Vollkorn', $fontstack-serif;
   font-weight: 400;
   line-height: 1.2;
   color: $color-primary-headers;
@@ -146,12 +167,29 @@ li { margin: 0.3em; }
  */
 
 .predstava {
-  font-family: Georgia, $fontstack-serif;
-  font-size: 1.125em;
+  font-family: $fontstack-serif;
+
+  em {
+    font-size: 1.125em;
+  }
 
   ul, ol {
     padding-left: 1.618em;
     margin-bottom: modular-scale(1em,  -1, 1.618);
+  }
+
+  blockquote {
+    font-family: $fontstack-sans;
+    font-style: italic;
+    font-size: 1.125em;
+
+    color: $color-primary-quote;
+
+    &.right {
+      float: right;
+      width: 39%;
+      margin-right: 0;
+    }
   }
 
 }
