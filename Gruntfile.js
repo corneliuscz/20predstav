@@ -275,21 +275,30 @@ module.exports = function (grunt) {
      * https://github.com/cambridge-healthcare/grunt-stencil
      */
     stencil: {
+      /*jshint camelcase: false */
       main: {
         options: {
-          partials: 'src/includes',
-          templates: 'src/templates'
+          env: {
+            assets_url: '/assets',
+            stylesheet: '/css/style.min.css',
+          },
+          partials: 'src/partials',
+          templates: 'src/templates',
+          dot_template_settings: {
+            strip: false
+          }
         },
         files: [
           {
             expand: true,
-            src: 'src/pages/*',
+            cwd: 'src/pages/',
+            src: '**/*.dot.html',
             dest: 'app',
             ext: '.html'
           }
         ]
       }
-    }
+    },
 
     /**
      * Runs tasks against changed watched files
@@ -306,12 +315,17 @@ module.exports = function (grunt) {
         files: '<%= project.src %>/scss/{,*/}*.{scss,sass}',
         tasks: ['sass:dev', 'cssmin:dev', 'autoprefixer:dev']
       },
+      stencil: {
+        files: '<%= project.src %>/src/{,*/}*.{html,md}',
+        task: 'stencil'
+      },
       livereload: {
         options: {
           livereload: LIVERELOAD_PORT
         },
         files: [
           '<%= project.app %>/{,*/}*.html',
+          '<%= project.src %>/{,*/}*.html',
           '<%= project.assets %>/css/*.css',
           '<%= project.assets %>/js/{,*/}*.js',
           '<%= project.assets %>/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
@@ -331,6 +345,7 @@ module.exports = function (grunt) {
     'autoprefixer:dev',
     'cssmin:dev',
     'jshint',
+    'imagemin',
     'concat:dev',
     'connect:livereload',
     'open',
@@ -350,7 +365,7 @@ module.exports = function (grunt) {
     'cssmin:dist',
     'clean:dist',
     'jshint',
-  'imagemin',
+    'imagemin',
     'uglify'
   ]);
 

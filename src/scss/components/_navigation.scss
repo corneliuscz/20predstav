@@ -11,8 +11,8 @@ nav {
   }
 
   a {
-    text-decoration: none;
     color: $color-primary-nav;
+    text-decoration: none;
     text-transform: uppercase;
     border-bottom: 1px dashed $color-secondary-background;
   }
@@ -28,4 +28,10 @@ nav {
 
 .svglogo {
   fill: $color-primary-nav;
+}
+
+.header-aboutbox {
+  color: $color-primary-nav;
+
+  padding: 0 1.618em;
 }
