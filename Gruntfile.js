@@ -316,8 +316,8 @@ module.exports = function (grunt) {
         tasks: ['sass:dev', 'cssmin:dev', 'autoprefixer:dev']
       },
       stencil: {
-        files: '<%= project.src %>/src/{,*/}*.{html,md}',
-        task: 'stencil'
+        files: '<%= project.src %>/{,*/}*.{html,md}',
+        tasks: [ 'stencil' ]
       },
       livereload: {
         options: {
@@ -325,7 +325,6 @@ module.exports = function (grunt) {
         },
         files: [
           '<%= project.app %>/{,*/}*.html',
-          '<%= project.src %>/{,*/}*.html',
           '<%= project.assets %>/css/*.css',
           '<%= project.assets %>/js/{,*/}*.js',
           '<%= project.assets %>/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
