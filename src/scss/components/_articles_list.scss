@@ -5,20 +5,10 @@ ul.articles_list {
 }
 
 li.articles_list-item {
-  font-family: $fontstack-sans;
-  
+
   a {
-    color: #222;
+    color: #666;
     text-decoration: none;
-  }
-  
-  h2 {
-      text-transform: uppercase;
-      text-rendering: optimizeLegibility;
-    
-    span {
-      font-weight: bold;
-    }
   }
 }
 

@@ -1,0 +1,3 @@
+__O&nbsp;Františku Lobkowitzovi__
+
+Pro ty, kdo mě neznají: Narodil jsem se v&nbsp;Plzni v&nbsp;r.&nbsp;1948, kde jsem absolvoval jak základní, tak i&nbsp;střední školu (tehdy SVVŠ). Mám čtyři sourozence a jsem moc rád, že si všichni rozumíme. Po skončení teologického studia jsem byl vysvěcen na&nbsp;kněze 15.&nbsp;8.&nbsp;1972 a pak následovala vojenská základní služba. V&nbsp;r.&nbsp;1975 jsem po delší peripetii dostal státní souhlas v&nbsp;Severomoravském kraji, působil jsem ve Frýdku, Jablunkově, Českém Těšíně a&nbsp;v&nbsp;Ostravě - Mariánských Horách. V&nbsp;r.&nbsp;1990 mě papež Jan Pavel II jmenoval pomocným biskupem pražským a při zřízení nové diecéze ostravsko-opavské v&nbsp;r.&nbsp;1996 mě tentýž papež jmenoval jejím prvním biskupem.

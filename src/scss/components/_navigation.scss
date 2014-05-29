@@ -11,23 +11,15 @@ nav {
   }
 
   a {
-    color: $color-primary-nav;
+    color: $color-primary-links;
     text-decoration: none;
     text-transform: uppercase;
-    border-bottom: 1px dashed $color-secondary-background;
+    border-bottom: 1px dashed $color-primary-links;
   }
 
   a:hover {
-    border-bottom: 1px solid $color-primary-nav;
+    border-bottom: 1px solid $color-primary-links;
   }
-}
-
-.logo {
-    padding: 1.618em;
-}
-
-.svglogo {
-  fill: $color-primary-nav;
 }
 
 .header-aboutbox {

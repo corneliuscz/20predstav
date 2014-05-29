@@ -4,31 +4,28 @@ div.container {
   position: relative;
 }
 
-header {
+header, footer, main.no-sidebar {
   @include span-columns(4);
 
   @include media($mobilew) {
     @include span-columns(2);
   }
-  @include media($tablet) {
-    @include span-columns(2);
+  @include media($wide) {
+    @include span-columns(12);
+    @include shift(6);
   }
 }
 
-footer {
+nav {
   @include span-columns(4);
 
   @include media($mobilew) {
     @include span-columns(6);
   }
-  @include media($tablet) {
-    @include span-columns(8);
+  @include media($wide) {
+    @include span-columns(4);
+    @include shift(1);
   }
-}
-
-main, main.no-sidebar {
-  background-color: $color-secondary-background;
-  padding: 2.618%;
 }
 
 main {
@@ -37,24 +34,24 @@ main {
   @include media($mobilew) {
     @include span-columns(3);
   }
-  @include media($tablet) {
-    @include span-columns(4);
+  @include media($wide) {
+    @include span-columns(13);
   }
 }
 
-main.no-sidebar {
+aside.shareholics {
   @include span-columns(4);
 
   @include media($mobilew) {
-    @include span-columns(4);
+    @include span-columns(1);
   }
-  @include media($tablet) {
-    @include span-columns(6);
+
+  @include media($wide) {
+    @include span-columns(1 of 13);
   }
 }
 
-aside {
-  background-color: $color-secondary-background;
+main article {
   padding: 2.618%;
 
   @include span-columns(4);
@@ -63,11 +60,26 @@ aside {
     @include span-columns(1);
   }
 
-  @include media($tablet) {
-    @include span-columns(2);
-
-    height: 100%;
-    position: absolute;
-    right: 0px;
+  @include media($wide) {
+    @include span-columns(12 of 13);
   }
 }
+
+aside.sidebar {
+  padding: 2.618%;
+
+  @include span-columns(4);
+
+  @include media($mobilew) {
+    @include span-columns(1);
+  }
+
+  @include media($wide) {
+    @include span-columns(6);
+  }
+}
+
+.persona {
+  @include outer-container;
+}
+

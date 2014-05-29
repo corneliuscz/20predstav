@@ -14,7 +14,7 @@
 /*
  * Vollkorn
  */
-
+/*
 @font-face {
   font-family: 'Vollkorn';
   src: url('../fonts/vollkorn-regular-webfont.eot');
@@ -68,11 +68,11 @@
   font-weight: bold;
   font-style: italic;
 }
-
+*/
 /*
  * Clear Sans
  */
-
+/*
 @font-face {
   font-family: 'Clear Sans';
   src: url('../fonts/ClearSans-Light.eot');
@@ -108,18 +108,23 @@
   font-weight: bold;
   font-style: italic;
 }
-
+*/
 @import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin-ext);
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,700italic&subset=latin-ext);
 
-$fontstack-serif: Georgia, Times, 'Times New Roman', serif;
-$fontstack-sans: 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+$fontstack-serif: Lora, $georgia;
+$fontstack-sans: 'Source Sans Pro', $helvetica;
+
+$h1-fontsize: 3.157em;
+$h2-fontsize: 2.369em;
+$h3-fontsize: 1.777em;
+$h4-fontsize: 1.333em;
 
 html {font-size: 1em;}
 
 body {
-  background-color: $color-primary-background;
-  font-family: $fontstack-sans;
+  background: $color-primary-background url('/assets/img/background.png') 50% 0 no-repeat;
+  font-family: $fontstack-serif;
   line-height: 1.618;
   color: $color-primary-text;
 }
@@ -128,7 +133,6 @@ p {margin-bottom: 1.3em; }
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-family: 'Vollkorn', $fontstack-serif;
   font-weight: 400;
   line-height: 1.2;
   color: $color-primary-headers;
@@ -136,21 +140,23 @@ h1, h2, h3, h4 {
 
 h1 {
   margin-top: 0.87em;
-  font-size: 3.157em;
+  font-size: $h1-fontsize;
   font-weight: bold;
 
   small {
     display: block;
     font-style: italic;
     font-weight: normal;
+    font-size: 48%;
+    margin-top: 0.5em;
   }
 }
 
-h2 {font-size: 2.369em;}
+h2 {font-size: $h2-fontsize;}
 
-h3 {font-size: 1.777em;}
+h3 {font-size: $h3-fontsize;}
 
-h4 {font-size: 1.333em;}
+h4 {font-size: $h4-fontsize;}
 
 small, .font_small {font-size: 0.75em;}
 
@@ -167,7 +173,6 @@ li { margin: 0.3em; }
  */
 
 .predstava {
-  font-family: $fontstack-serif;
 
   em {
     font-size: 1.125em;
@@ -179,21 +184,31 @@ li { margin: 0.3em; }
   }
 
   blockquote {
-    font-family: $fontstack-sans;
+    font-size: 1.5em;
+    font-weight: 300;
     font-style: italic;
-    font-size: 1.125em;
 
     color: $color-primary-quote;
 
-    &.right {
-      float: right;
-      width: 39%;
-      margin-right: 0;
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    margin-top: 0;
+
+    p {
+      margin: 0;
     }
   }
 
+  p:last-child {
+    text-align: right;
+  }
 }
 
-aside {
+aside, nav {
+  font-family: $fontstack-sans;
+}
+
+aside.sidebar {
   font-size: em(14px);
 }

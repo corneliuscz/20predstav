@@ -1,0 +1,29 @@
+aside.shareholics {
+    margin-top: 43.5%;
+}
+
+a.icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+
+  display: block;
+  float: right;
+
+  text-indent: -9999px;
+  font-size: 1px;
+
+  background-size: 100%;
+}
+
+.icon--twitter {
+  background: url('/assets/img/ico-twitter.png') 0 0 no-repeat;
+}
+
+.icon--facebook {
+  background: url('/assets/img/ico-facebook.png') 0 0 no-repeat;
+}
+
+.icon--google {
+  background: url('/assets/img/ico-google.png') 0 0 no-repeat;
+}

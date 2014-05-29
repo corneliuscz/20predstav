@@ -2,3 +2,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+.logo {
+  max-width: em(520px);
+  margin: 0 auto em(50px) auto;
+
+  /* Kvůli Chrome a liquid layoutu, Chrome natahuje .logo na 100% výšky okna */
+  a {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 28%; /* poměr stran loga */
+
+    vertical-align: middle; /* top | middle | bottom ... do what you want */
+  }
+
+  svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.svglogo, .svglogo-smallpiece {
+  fill: $logo-primary-color;
+}
+
+.svglogo-smallpiece {
+  fill: $logo-secondary-color;
+}

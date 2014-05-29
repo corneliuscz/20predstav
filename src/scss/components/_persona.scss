@@ -1,0 +1,30 @@
+.persona {
+  margin-bottom: em(60px);
+
+  img {
+    display: inline-block;
+    width: 33.3333%;
+    margin-right: 2%;
+    vertical-align: bottom;
+  }
+
+  div {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 1.5%;
+    max-width: 64%;
+  }
+
+  h1 {
+    font-size: $h2-fontsize;
+    font-weight: normal;
+
+    margin-right: 0%;
+    margin-bottom: 0em;
+  }
+  span {
+    display: block;
+    font-family: $fontstack-sans;
+    font-size: em(16px);
+  }
+}
