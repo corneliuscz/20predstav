@@ -6,7 +6,7 @@
   <title>{{= it.document.title }}</title>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="">
+  <meta name="description" content="{{= it.document.og_desc }}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <link href="//www.google-analytics.com" rel="dns-prefetch">
@@ -15,9 +15,27 @@
 
   <script src="{{= it.assets_url }}/components/modernizr.js"></script>
 
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@smarter_region">
+  <meta name="twitter:title" content="{{= it.document.og_title }}">
+  <meta name="twitter:description" content="{{= it.document.og_desc }}">
+  <meta name="twitter:creator" content="@smarter_region">
+    <meta name="twitter:image:src" content="http://20predstav.eu/assets/img/logo-bublina.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{= it.document.og_title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{= it.document.og_url }}">
+  <meta property="og:image" content="http://20predstav.eu/assets/img/logo-bublina.png">
+  <meta property="og:description" content="{{= it.document.og_desc }}">
+  <meta property="og:site_name" content="20 představ o Moravskoslezsku">
+  <meta property="fb:app_id" content="870400476322262">
+
 </head>
+
 <body class="{{= it.document.body_class }}">
-  <div class="container">
+  <div class="container" id="nahoru">
     {{= it.include("header-main") }}
   </div>
   <div class="container">
@@ -36,7 +54,7 @@
       (f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
       l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
                             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-XXXXXXXX-XX');
+    ga('create', 'UA-4032099-5', '20predstav.eu');
     ga('send', 'pageview');
   </script>
 

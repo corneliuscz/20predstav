@@ -120,7 +120,9 @@ $h2-fontsize: 2.369em;
 $h3-fontsize: 1.777em;
 $h4-fontsize: 1.333em;
 
-html {font-size: 1em;}
+html {
+  font-size: 1em;
+}
 
 body {
   background: $color-primary-background url('/assets/img/background.png') 50% 0 no-repeat;
@@ -152,15 +154,35 @@ h1 {
   }
 }
 
-h2 {font-size: $h2-fontsize;}
+h2 {
+  font-size: $h2-fontsize;
+}
 
-h3 {font-size: $h3-fontsize;}
+h3 {
+  font-size: $h3-fontsize;
+}
 
-h4 {font-size: $h4-fontsize;}
+h4 {
+  font-size: $h4-fontsize;
+}
 
-small, .font_small {font-size: 0.75em;}
+small, .font_small {
+  font-size: 0.75em;
+}
 
 li { margin: 0.3em; }
+
+/*
+ * Links
+ */
+
+a {
+  color: $color-primary-links;
+}
+
+a:hover, a:active {
+  color: $color-secondary-links;
+}
 
 /*
  * List of articles

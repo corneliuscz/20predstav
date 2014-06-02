@@ -6,6 +6,10 @@ ul.articles_list {
 
 li.articles_list-item {
 
+  border-bottom: 1px dashed $color-borders;
+  padding: 0px em(40);
+  margin-bottom: 2.75em;
+
   a {
     color: #666;
     text-decoration: none;

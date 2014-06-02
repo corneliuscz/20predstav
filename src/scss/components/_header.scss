@@ -4,6 +4,8 @@ header {
   margin-bottom: em(50px);
 }
 
-p.header-aboutbox {
+p.header-aboutbox, p.bottom-tagline {
   font-size: em(18px);
+  font-style: italic;
+  text-align: center;
 }

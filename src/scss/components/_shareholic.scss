@@ -13,18 +13,34 @@ a.icon {
 
   text-indent: -9999px;
   font-size: 1px;
+}
 
+a.icon--twitter {
+  background: url('/assets/img/ico-twitter.png') 0 0 no-repeat;
   background-size: 100%;
 }
 
-.icon--twitter {
-  background: url('/assets/img/ico-twitter.png') 0 0 no-repeat;
+a.icon--twitter:hover {
+  background: url('/assets/img/ico-twitter-hover.png') 0 0 no-repeat;
+  background-size: 100%;
 }
 
-.icon--facebook {
+a.icon--facebook {
   background: url('/assets/img/ico-facebook.png') 0 0 no-repeat;
+  background-size: 100%;
 }
 
-.icon--google {
+a.icon--facebook:hover {
+  background: url('/assets/img/ico-facebook-hover.png') 0 0 no-repeat;
+  background-size: 100%;
+}
+
+a.icon--google {
   background: url('/assets/img/ico-google.png') 0 0 no-repeat;
+  background-size: 100%;
+}
+
+a.icon--google:hover {
+  background: url('/assets/img/ico-google-hover.png') 0 0 no-repeat;
+  background-size: 100%;
 }

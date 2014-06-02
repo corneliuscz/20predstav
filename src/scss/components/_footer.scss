@@ -1,5 +1,32 @@
-footer {
-  text-align: center;
+.footer {
+  padding-top: em(28);
 
+  text-align: center;
   font-family: $fontstack-sans;
+
+  p {
+    font-size: em(14px);
+    color: $color-secondary-text;
+  }
+}
+
+.footer--clanek {
+  border-top: 1px dashed $color-primary-links;
+}
+
+a.nahoru {
+  padding: 8px 0 12px 45px;
+
+  font-size: em(24);
+  line-height: em(24);
+  font-weight: 300;
+
+  text-transform: lowercase;
+  text-decoration: none;
+
+  background: url('/assets/img/nahoru.png') 0% 50% no-repeat;
+}
+
+img.publicita {
+  margin-top: em(72);
 }
