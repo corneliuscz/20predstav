@@ -1,5 +1,9 @@
 .footer {
-  padding-top: em(28);
+  padding: 1em;
+
+  @include media($wide) {
+    padding-top: em(28);
+  }
 
   text-align: center;
   font-family: $fontstack-sans;

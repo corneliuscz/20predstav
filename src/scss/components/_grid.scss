@@ -7,9 +7,6 @@ div.container {
 header, footer, main.no-sidebar {
   @include span-columns(4);
 
-  @include media($mobilew) {
-    @include span-columns(2);
-  }
   @include media($wide) {
     @include span-columns(12);
     @include shift(6);
@@ -19,9 +16,6 @@ header, footer, main.no-sidebar {
 nav {
   @include span-columns(4);
 
-  @include media($mobilew) {
-    @include span-columns(6);
-  }
   @include media($wide) {
     @include span-columns(4);
     @include shift(1);
@@ -31,9 +25,6 @@ nav {
 main {
   @include span-columns(4);
 
-  @include media($mobilew) {
-    @include span-columns(3);
-  }
   @include media($wide) {
     @include span-columns(13);
   }
@@ -42,23 +33,15 @@ main {
 aside.shareholics {
   @include span-columns(4);
 
-  @include media($mobilew) {
-    @include span-columns(1);
-  }
-
   @include media($wide) {
     @include span-columns(1 of 13);
   }
 }
 
 main article {
-  padding: 2.618%;
+  padding: 2.618% 1em;
 
   @include span-columns(4);
-
-  @include media($mobilew) {
-    @include span-columns(1);
-  }
 
   @include media($wide) {
     @include span-columns(12 of 13);
@@ -66,13 +49,9 @@ main article {
 }
 
 aside.sidebar {
-  padding: 2.618%;
+  //padding: 2.618%;
 
   @include span-columns(4);
-
-  @include media($mobilew) {
-    @include span-columns(1);
-  }
 
   @include media($wide) {
     @include span-columns(6);

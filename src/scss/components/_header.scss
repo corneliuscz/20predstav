@@ -1,11 +1,20 @@
 header {
   text-align: center;
-  margin-top: em(85px);
-  margin-bottom: em(50px);
+  padding: 0.5em;
+
+  @include media($wide) {
+      margin-top: em(85px);
+      margin-bottom: em(50px);
+  }
 }
 
 p.header-aboutbox, p.bottom-tagline {
-  font-size: em(18px);
+  font-size: 1em;
   font-style: italic;
   text-align: center;
+  padding: 0px 1.618em;
+
+  @include media($wide) {
+    font-size: 1.125em;
+  }
 }

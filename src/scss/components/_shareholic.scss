@@ -1,5 +1,9 @@
 aside.shareholics {
+  text-align: center;
+
+  @include media($wide) {
     margin-top: 43.5%;
+  }
 }
 
 a.icon {
@@ -7,9 +11,13 @@ a.icon {
   height: 32px;
   margin-bottom: 24px;
 
-  display: block;
-  float: right;
-  clear: both;
+  display: inline-block;
+
+  @include media($wide) {
+    display: block;
+    float: right;
+    clear: both;
+  }
 
   text-indent: -9999px;
   font-size: 1px;

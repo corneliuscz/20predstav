@@ -29,7 +29,10 @@ nav {
 }
 
 nav.nav-main {
+
+  @include media($wide) {
     margin-top: 12.85%;
+  }
 }
 
 .header-aboutbox {

@@ -1,9 +1,23 @@
 section.author {
-  margin-top: 76.5%;
-  margin-bottom: golden-ratio(1em,  3);
+  margin-bottom: 1.236em;
+  padding: 1em;
+
+  background-color: $color-secondary-background;
+
+  @include media($wide) {
+    margin-top: 76.5%;
+    margin-bottom: golden-ratio(1em,  3);
+
+    background-color: $color-primary-background;
+  }
+
 
   p {
     margin: 0;
-    color: $color-secondary-text;
+    color: $color-primary-text;
+
+    @include media($wide) {
+      color: $color-secondary-text;
+    }
   }
 }

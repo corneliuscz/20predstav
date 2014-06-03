@@ -6,7 +6,12 @@ img {
 
 .logo {
   max-width: em(520px);
-  margin: 0 auto em(50px) auto;
+  margin: 1.125em auto 2.125em;
+
+  @include media($wide) {
+    margin: 0 auto em(50px) auto;
+  }
+
 
   /* Kvůli Chrome a liquid layoutu, Chrome natahuje .logo na 100% výšky okna */
   a {

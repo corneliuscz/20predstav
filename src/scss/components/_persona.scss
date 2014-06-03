@@ -1,26 +1,37 @@
 .persona {
-  margin-bottom: em(60px);
+  @include media($wide) {
+    margin-bottom: em(60px);
+  }
 
   img {
     display: inline-block;
-    width: 33.3333%;
-    margin-right: 2%;
     vertical-align: bottom;
+
+    @include media($wide) {
+      width: 33.3333%;
+      margin-right: 2%;
+    }
   }
 
   div {
     display: inline-block;
     vertical-align: bottom;
     margin-bottom: 1.5%;
-    max-width: 64%;
+
+    @include media($wide) {
+      max-width: 64%;
+    }
   }
 
   h1 {
-    font-size: $h2-fontsize;
     font-weight: normal;
+    @include media($wide) {
+      font-size: $h2-fontsize;
+    }
 
-    margin-right: 0%;
+    margin-right: 0em;
     margin-bottom: 0em;
+    margin-top: 0.3em;
   }
   span {
     display: block;
