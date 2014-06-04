@@ -7,20 +7,21 @@ nav {
 
   li {
     margin: 0;
-    padding: modular-scale(1em,  -1, 1.618) 1.618em;
+    //padding: modular-scale(1em,  -1, 1.618) 1.618em;
   }
 
   h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 0px;
+    font-size: em(24px);
+    font-weight: 600;
   }
 
   a {
-    color: $color-primary-links;
     text-decoration: none;
     text-transform: uppercase;
+    /*
+    color: $color-primary-links;
     border-bottom: 1px dashed $color-primary-links;
+    */
   }
 
   a:hover {
@@ -29,10 +30,89 @@ nav {
 }
 
 nav.nav-main {
-
   @include media($wide) {
-    margin-top: 12.85%;
+    margin-top: 13.2%;
   }
+
+  ul, li, h3, a {
+    color: #ffffff;
+  }
+
+  ul {
+    margin: 1em;
+    padding: 0.55em 0 0.55em 0;
+
+    @include background(linear-gradient($color-tertiary-links, $color-primary-links) top no-repeat);
+
+    border-radius: 7px;
+
+    @include media($wide) {
+      margin: 0px;
+      padding: 0px;
+      background: none;
+    }
+  }
+
+  &.close ul {
+      padding: 0.55em 0 0.55em 0;
+  }
+
+  & li.nav-item, &.close li.nav-item {
+    display: none;
+
+    @include media($wide) {
+        display: block;
+    }
+  }
+
+  &.open {
+    ul {
+      padding: 0.55em 0 1em 0;
+    }
+
+    li.nav-item {
+      display: block;
+    }
+  }
+
+  li, li.nav-item {
+    padding: 0.5em 1.4em;
+
+    @include media($wide) {
+      padding: modular-scale(1em,  -1, 1.618) 1.618em;
+    }
+  }
+
+  h3 {
+    margin: 0;
+    background: url('/assets/img/ico-menu-open.png') no-repeat 100% 50%;
+  }
+
+  &.open h3 {
+    background: url('/assets/img/ico-menu-close.png') no-repeat 100% 50%;
+  }
+
+  &.close h3 {
+    background: url('/assets/img/ico-menu-open.png') no-repeat 100% 50%;
+  }
+
+  h3, .close h3, .open h3 {
+    @include media($wide) {
+      color: $color-secondary-headers;
+      margin: 1.414em 0 0 0;
+      background: none;
+    }
+  }
+
+  a {
+    border-bottom: 1px dashed #ffffff;
+
+    @include media($wide) {
+      color: $color-primary-links;
+      border-bottom: 1px dashed $color-primary-links;
+    }
+  }
+
 }
 
 .header-aboutbox {

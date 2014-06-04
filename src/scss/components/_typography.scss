@@ -110,7 +110,7 @@
 }
 */
 @import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,700italic&subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic&subset=latin-ext);
 
 $fontstack-serif: Lora, $georgia;
 $fontstack-sans: 'Source Sans Pro', $helvetica;
@@ -119,6 +119,8 @@ $h1-fontsize: 3.157em;
 $h2-fontsize: 2.369em;
 $h3-fontsize: 1.777em;
 $h4-fontsize: 1.333em;
+
+$header-margin: 1.414em 0 0.5em 0;
 
 html {
   font-size: 1em;
@@ -129,12 +131,16 @@ body {
   font-family: $fontstack-serif;
   line-height: 1.618;
   color: $color-primary-text;
+
+  tap-highlight-color:rgba(0,0,0,0);
+  text-size-adjust: none;
+  font-smoothing: antialiased;
 }
 
 p {margin-bottom: 1.3em; }
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+  margin: $header-margin;
   font-weight: 400;
   line-height: 1.2;
   color: $color-primary-headers;

@@ -14,6 +14,9 @@
   <link href="{{= it.assets_url }}{{= it.stylesheet }}" rel="stylesheet">
 
   <script src="{{= it.assets_url }}/components/modernizr.js"></script>
+  <!--[if lt IE 9]>
+    <script src="{{= it.assets_url }}/components/html5shiv.js"></script>
+  <![endif]-->
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
@@ -41,7 +44,7 @@
   <div class="container">
     {{= it.include("nav-main") }}
 
-    <main class="main" role="main">
+    <main class="main menuslide" role="main">
       <aside class="shareholics">
         <a href="https://twitter.com/intent/tweet?text={{!it.document.share_twitter}}" class="icon icon--twitter" title="Sdílej na Twitter">Sdílej na Twitter</a>
         <a href="https://www.facebook.com/sharer/sharer.php?u={{!it.document.og_url}}" class="icon icon--facebook" title="Sdílej na Facebook">Sdílej na Facebook</a>

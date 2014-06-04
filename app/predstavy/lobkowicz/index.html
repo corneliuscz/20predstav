@@ -14,6 +14,9 @@
   <link href="/assets/css/style.min.css" rel="stylesheet">
 
   <script src="/assets/components/modernizr.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/assets/components/html5shiv.js"></script>
+  <![endif]-->
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
@@ -80,17 +83,17 @@
 
   </div>
   <div class="container">
-    <nav class="nav-main" role="navigation">
+    <nav class="nav-main menuslide" role="navigation">
   <ul>
-    <li><h3>Další představy</h3></li>
-    <li><a href="/predstavy/lobkowicz/">František Lobkowicz</a></li>
-    <li><a href="/predstavy/simicek/">Petr Šimíček</a></li>
-    <li><a href="/predstavy/kadlucka/">Roman Kadlučka</a></li>
+    <li><h3 id="navToggle">Další představy</h3></li>
+    <li class="nav-item"><a href="/predstavy/lobkowicz/">František Lobkowicz</a></li>
+    <li class="nav-item"><a href="/predstavy/simicek/">Petr Šimíček</a></li>
+    <li class="nav-item"><a href="/predstavy/kadlucka/">Roman Kadlučka</a></li>
   </ul>
 </nav>
 
 
-    <main class="main" role="main">
+    <main class="main menuslide" role="main">
       <aside class="shareholics">
         <a href="https://twitter.com/intent/tweet?text=Představa Františka Lobkowicze o Moravskoslezsku v roce 2020 na http:&#47;&#47;20predstav.eu&#47;predstavy&#47;lobkowicz&#47;" class="icon icon--twitter" title="Sdílej na Twitter">Sdílej na Twitter</a>
         <a href="https://www.facebook.com/sharer/sharer.php?u=http:&#47;&#47;20predstav.eu&#47;predstavy&#47;lobkowicz&#47;" class="icon icon--facebook" title="Sdílej na Facebook">Sdílej na Facebook</a>

@@ -2,6 +2,9 @@
 div.container {
   @include outer-container;
   position: relative;
+
+  /*  Prevents Flickering  */
+  backface-visibility: hidden;
 }
 
 header, footer, main.no-sidebar {
