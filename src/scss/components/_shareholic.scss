@@ -1,9 +1,18 @@
 aside.shareholics {
   text-align: center;
 
+  @include media($weeny) {
+    margin-top: 41.5%;
+    padding-right: 0.3em;
+  }
+
+  @include media($meeny) {
+    margin-top: 42%;
+    padding-right: 0.3em;
+  }
+
   @include media($wide) {
     margin-top: 42.5%;
-    padding-right: 0.3em;
   }
 }
 
@@ -14,7 +23,7 @@ a.icon {
 
   display: inline-block;
 
-  @include media($wide) {
+  @include media($weeny) {
     display: block;
     float: right;
     clear: both;

@@ -4,6 +4,16 @@ section.author {
 
   background-color: $color-secondary-background;
 
+  @include media($weeny) {
+    padding: 2em;
+  }
+
+  @include media($meeny) {
+    margin-top: 58.5%;
+    padding: 1em;
+    background-color: transparent;
+  }
+
   @include media($wide) {
     margin-top: 67.5%;
     margin-bottom: golden-ratio(1em,  3);

@@ -8,6 +8,7 @@ $max-width: 100%;
 $border-box-sizing: true;
 
 // Define your breakpoints
-$mobilew: new-breakpoint(min-width 480px 6);
-$tablet: new-breakpoint(min-width 768px 11);
-$wide: new-breakpoint(min-width 1280px 24);
+$teeny: new-breakpoint(min-width 430px 4);
+$weeny: new-breakpoint(min-width 640px 12);
+$meeny: new-breakpoint(min-width 960px 12);
+$wide: new-breakpoint(min-width 1150px 24);

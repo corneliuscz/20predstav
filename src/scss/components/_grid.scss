@@ -19,6 +19,11 @@ header, footer, main.no-sidebar {
 nav {
   @include span-columns(4);
 
+  @include media($weeny) {
+    @include span-columns(6);
+    @include shift(3);
+  }
+
   @include media($wide) {
     @include span-columns(4);
     @include shift(1);
@@ -28,6 +33,10 @@ nav {
 main {
   @include span-columns(4);
 
+  @include media($meeny) {
+    @include span-columns(8);
+  }
+
   @include media($wide) {
     @include span-columns(13);
   }
@@ -35,6 +44,14 @@ main {
 
 aside.shareholics {
   @include span-columns(4);
+
+  @include media($weeny) {
+    @include span-columns(1 of 12);
+  }
+
+  @include media($meeny) {
+    @include span-columns(1 of 8);
+  }
 
   @include media($wide) {
     @include span-columns(1 of 13);
@@ -46,6 +63,14 @@ main article {
 
   @include span-columns(4);
 
+  @include media($weeny) {
+    @include span-columns(11 of 12);
+  }
+
+  @include media($meeny) {
+    @include span-columns(7 of 8);
+  }
+
   @include media($wide) {
     @include span-columns(12 of 13);
   }
@@ -55,6 +80,10 @@ aside.sidebar {
   //padding: 2.618%;
 
   @include span-columns(4);
+
+  @include media($meeny) {
+    @include span-columns(4);
+  }
 
   @include media($wide) {
     @include span-columns(6);
