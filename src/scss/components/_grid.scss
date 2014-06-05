@@ -10,6 +10,11 @@ div.container {
 header, footer, main.no-sidebar {
   @include span-columns(4);
 
+  @include media($meeny) {
+    @include span-columns(8 of 12);
+    @include shift(2);
+  }
+
   @include media($wide) {
     @include span-columns(12);
     @include shift(6);
@@ -73,6 +78,23 @@ main article {
 
   @include media($wide) {
     @include span-columns(12 of 13);
+  }
+}
+
+main.no-sidebar {
+  @include media($weeny) {
+    @include span-columns(10 of 12);
+    @include shift(1);
+  }
+
+  @include media($meeny) {
+    @include span-columns(8 of 12);
+    @include shift(2);
+  }
+
+  @include media($wide) {
+    @include span-columns(12);
+    @include shift(6);
   }
 }
 

@@ -18,6 +18,14 @@
       margin-right: 2%;
     }
 
+    @include media($weeny) {
+      width: 30%;
+    }
+
+    @include media($meeny) {
+      width: 27%;
+    }
+
     @include media($wide) {
       width: 27%;
     }
@@ -41,7 +49,7 @@
     font-weight: normal;
     font-size: $h2-fontsize;
 
-    @include media($wide) {
+    @include media($teeny) {
       font-size: $h1-fontsize;
     }
 
