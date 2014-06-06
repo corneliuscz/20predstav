@@ -1,21 +1,46 @@
+.footer-container {
+  background-color: $color-footer-background;
+}
+
 .footer {
-  padding: 1em;
+  padding: em(28);
+
+  @include media($wide) {
+    padding: em(32) em(28);
+  }
+
+  font-family: $fontstack-sans;
+  text-align: center;
+
+  @include media($teeny) {
+    text-align: left;
+  }
+
+  p {
+    font-size: em(14px);
+    color: $color-secondary-text;
+
+    margin: 0 0 0 1em;
+    @include media($weeny) {
+      margin: 0 0.5em;
+    }
+  }
+}
+
+.footer--clanek {
+  //border-top: 1px dashed $color-primary-links;
+}
+
+.jumper {
+  margin-bottom: em(28);
+  padding-top: em(24);
 
   @include media($wide) {
     padding-top: em(28);
   }
 
-  text-align: center;
-  font-family: $fontstack-sans;
-
-  p {
-    font-size: em(14px);
-    color: $color-secondary-text;
-  }
-}
-
-.footer--clanek {
   border-top: 1px dashed $color-primary-links;
+  text-align: center;
 }
 
 a.nahoru {
@@ -31,6 +56,19 @@ a.nahoru {
   background: url('/assets/img/nahoru.png') 0% 50% no-repeat;
 }
 
-img.publicita {
-  margin-top: em(72);
+div.shareholics--footer {
+  padding: 1em 0;
+
+  @include media($teeny) {
+    padding: 0;
+  }
+}
+
+div.publicita--footer {
+  margin-top: em(28);
+  @include media($meeny) {
+    margin-top: 0;
+  }
+
+  text-align: center;
 }

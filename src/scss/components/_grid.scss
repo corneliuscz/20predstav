@@ -1,5 +1,4 @@
-
-div.container {
+div.container, div.footer-container {
   @include outer-container;
   position: relative;
 
@@ -7,7 +6,7 @@ div.container {
   backface-visibility: hidden;
 }
 
-header, footer, main.no-sidebar {
+header, main.no-sidebar, .jumper {
   @include span-columns(4);
 
   @include media($meeny) {
@@ -20,6 +19,64 @@ header, footer, main.no-sidebar {
     @include shift(6);
   }
 }
+
+footer {
+  @include span-columns(4);
+
+  @include media($meeny) {
+    @include span-columns(12);
+  }
+
+  @include media($wide) {
+    @include span-columns(18);
+    @include shift(3);
+  }
+
+  & .shareholics--footer {
+    @include span-columns(4 of 4);
+
+    @include media($teeny) {
+      @include span-columns(1 of 12);
+    }
+
+    @include media($weeny) {
+      @include span-columns(2 of 12);
+    }
+
+    @include media($meeny) {
+      @include span-columns(1 of 12);
+    }
+  }
+
+  & .copyright--footer {
+    @include span-columns(4 of 4);
+
+    @include media($teeny) {
+      @include span-columns(11 of 12);
+    }
+
+    @include media($weeny) {
+      @include span-columns(10 of 12);
+    }
+
+    @include media($meeny) {
+      @include span-columns(6 of 12);
+    }
+  }
+
+  & .publicita--footer {
+    @include span-columns(4 of 4);
+
+    @include media($teeny) {
+      @include span-columns(12 of 12);
+    }
+
+    @include media($meeny) {
+      @include span-columns(5 of 12);
+    }
+  }
+}
+
 
 nav {
   @include span-columns(4);
@@ -115,4 +172,3 @@ aside.sidebar {
 .persona {
   @include outer-container;
 }
-
