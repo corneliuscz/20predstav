@@ -6,7 +6,7 @@
   padding: em(28);
 
   @include media($wide) {
-    padding: em(32) em(28);
+    padding: em(48) em(28);
   }
 
   font-family: $fontstack-sans;

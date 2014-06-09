@@ -1,0 +1,3 @@
+__O&nbsp;Jakubu Weimannovi__
+
+Narozen v&nbsp;roce 1973 v&nbsp;Ostravě, vystudoval Hornicko-geologickou fakultu Vysoké školy báňské – Technické univerzity v&nbsp;Ostravě, obor Ekonomika a&nbsp;řízení, MBA pak na&nbsp;Dominican University Chicago. V&nbsp;BONATRANS GROUP působí od roku 2001, kdy začínal na&nbsp;pozici obchodníka, v&nbsp;letech 2006 až 2012 byl obchodním ředitelem a od září 2012 je generálním ředitelem firmy. Působí jako předseda Development Commitee ERWA (Evropská asociace výrobců dvojkolí) v&nbsp;rámci UNIFE (Evropská asociace dodavatelů železničního průmyslu) a je členem vědecké rady Obchodně-podnikatelské fakulty Slezské univerzity v&nbsp;Opavě.
