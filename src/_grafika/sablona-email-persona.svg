@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="195"
+   id="svg2"
+   inkscape:label="Pozadí"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="sablona-email-persona.svg"
+   inkscape:export-filename="D:\wamp\www\20predstav\src\newsletter-klimek.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3746">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3745">
+      <path
+         style="fill:#88aa00;fill-opacity:0.38666663"
+         d="m -933.7881,-544.98195 c 27.9749,-0.39082 54.96,17.59001 65.5534,43.46029 11.474,26.35416 4.8396,59.30299 -16.2208,78.95772 -10.5966,10.2426 -24.4439,17.06472 -39.0355,19.15323 2.8008,3.16808 10.419,7.26329 10.8715,8.82358 -31.9972,-0.40869 -64.4581,-15.50336 -82.7131,-42.24821 -14.2719,-24.61906 -12.7373,-57.74908 5.012,-80.24684 13.2182,-17.42485 34.6489,-28.0567 56.5325,-27.89977 z"
+         id="path3747"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3930">
+      <path
+         style="fill:#88aa00;fill-opacity:0.38666663"
+         d="m -117.16423,885.02502 c -27.9749,-0.39082 -54.96,17.59001 -65.5534,43.46029 -11.474,26.35416 -4.8396,59.30296 16.2208,78.95779 10.5966,10.2426 24.4439,17.0647 39.0355,19.1532 -2.8008,3.1681 -10.419,7.2633 -10.8715,8.8236 31.9972,-0.4087 64.458102,-15.5034 82.713102,-42.24823 14.2719,-24.6191 12.7373,-57.74912 -5.012,-80.24688 -13.2182,-17.42485 -34.6489,-28.0567 -56.532502,-27.89977 z"
+         id="path3932"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3934">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3936"
+         d="m 63.964286,901.64109 c -27.716142,3.81618 -51.693809,25.64683 -58.2805921,52.81494 -7.3846981,27.77878 4.1241918,59.35697 27.8982601,75.62497 12.015055,8.5344 26.73007,13.1989 41.469827,13.0716 -2.293083,3.5529 -9.209622,8.7461 -9.422589,10.3567 31.572687,-5.2109 61.397588,-25.0108 75.427648,-54.19446 10.4115,-26.48373 3.91731,-59.00724 -17.01032,-78.58327 -15.68587,-15.24138 -38.470552,-22.53312 -60.082234,-19.09048 z"
+         style="fill:#88aa00;fill-opacity:0.38666663" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5330">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5332"
+         d="m 72.2119,901.01805 c 27.9749,-0.39082 54.96,17.59001 65.5534,43.46029 11.474,26.35416 4.8396,59.30296 -16.22079,78.95776 -10.59661,10.2426 -24.443907,17.0647 -39.035515,19.1532 2.8008,3.1681 10.419003,7.2633 10.871508,8.8236 C 61.3833,1051.0042 28.922395,1035.9095 10.667398,1009.1647 -3.6045043,984.5456 -2.0699026,951.41558 15.679396,928.91782 28.897599,911.49297 50.3283,900.86112 72.2119,901.01805 z"
+         style="fill:#88aa00;fill-opacity:0.38666663" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5364">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5366"
+         d="m 72.2119,901.01805 c 27.9749,-0.39082 54.96,17.59001 65.5534,43.46029 11.474,26.35416 4.8396,59.30296 -16.22079,78.95776 -10.59661,10.2426 -24.443907,17.0647 -39.035515,19.1532 2.8008,3.1681 10.419003,7.2633 10.871508,8.8236 C 61.3833,1051.0042 28.922395,1035.9095 10.667398,1009.1647 -3.6045043,984.5456 -2.0699026,951.41558 15.679396,928.91782 28.897599,911.49297 50.3283,900.86112 72.2119,901.01805 z"
+         style="fill:#88aa00;fill-opacity:0.38666663" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="125.28836"
+     inkscape:cy="95.752759"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1148"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3749">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-857.36218)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3719"
+       y="944.07666"
+       x="208.29266"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="944.07666"
+         x="208.29266"
+         style="line-height:110.00000238%;fill:#4d4d4d;fill-opacity:1;font-family:Georgia;-inkscape-font-specification:Georgia"
+         id="tspan3721"
+         sodipodi:role="line">Petr</tspan><tspan
+         id="tspan3723"
+         y="988.07666"
+         x="208.29266"
+         style="font-weight:bold;line-height:110.00000238%;fill:#4d4d4d;fill-opacity:1;font-family:Georgia;-inkscape-font-specification:Georgia"
+         sodipodi:role="line">Klimek</tspan><tspan
+         y="1017.8787"
+         x="208.29266"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#999999;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan3725"
+         sodipodi:role="line">starosta města Bílovec</tspan></text>
+    <path
+       style="fill:#88aa00;fill-opacity:1;display:inline"
+       d="m 461.2505,873.3287 c -14.91595,-0.20839 -29.30433,9.3789 -34.95261,23.17281 -6.11795,14.0519 -2.58042,31.62005 8.64886,42.09985 5.64998,5.4613 13.03328,9.09882 20.81349,10.2124 -1.49336,1.68921 -5.55535,3.87275 -5.79662,4.70469 17.06074,-0.21791 34.36874,-8.26631 44.10208,-22.52653 7.6098,-13.12675 6.79155,-30.79151 -2.67226,-42.7872 -7.0479,-9.29085 -18.47464,-14.9597 -30.14294,-14.87602 z"
+       id="path3727"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3729"
+       y="916.7298"
+       x="438.53894"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
+       xml:space="preserve"><tspan
+         y="916.7298"
+         x="438.53894"
+         id="tspan3731"
+         sodipodi:role="line">přečti</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       x="208.29266"
+       y="1164.0767"
+       id="text4762"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4764"
+         style="line-height:110.00000238%;fill:#4d4d4d;fill-opacity:1;font-family:Georgia;-inkscape-font-specification:Georgia"
+         x="208.29266"
+         y="1164.0767">Petr</tspan><tspan
+         sodipodi:role="line"
+         style="font-weight:bold;line-height:110.00000238%;fill:#4d4d4d;fill-opacity:1;font-family:Georgia;-inkscape-font-specification:Georgia"
+         x="208.29266"
+         y="1208.0767"
+         id="tspan4766">Birklen</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4768"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#999999;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         x="208.29266"
+         y="1237.8787">vedoucí Správy CHKO Poodří</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4770"
+       d="m 461.2505,1093.3287 c -14.91595,-0.2084 -29.30433,9.3789 -34.95261,23.1728 -6.11795,14.0519 -2.58042,31.6201 8.64886,42.0999 5.64998,5.4613 13.03328,9.0988 20.81349,10.2124 -1.49336,1.6892 -5.55535,3.8727 -5.79662,4.7047 17.06074,-0.218 34.36874,-8.2664 44.10208,-22.5266 7.6098,-13.1267 6.79155,-30.7915 -2.67226,-42.7872 -7.0479,-9.2908 -18.47464,-14.9597 -30.14294,-14.876 z"
+       style="fill:#88aa00;fill-opacity:1;display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro Bold"
+       x="438.53894"
+       y="1136.7297"
+       id="text4772"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4774"
+         x="438.53894"
+         y="1136.7297">přečti</tspan></text>
+    <image
+       clip-path="url(#clipPath3934)"
+       transform="matrix(-0.98865162,0.1502264,0.1502264,0.98865162,45.023759,203.86411)"
+       width="196.73393"
+       height="295.10092"
+       xlink:href="file:///O:/Chyt%C5%99ej%C5%A1%C3%AD%20kraj/01%20Kompetence%20z%C3%ADt%C5%99ka/06%2020%2020%20Moravskoslezsko/1%20P%C5%99%C3%ADsp%C4%9Bvky/_po-korekture_/03Birklen/petr%20birklen_foto_cb.jpg"
+       id="image4776"
+       x="-20.981098"
+       y="876.45435" />
+    <image
+       transform="translate(44.979674,-16.432169)"
+       y="756.48981"
+       x="-114.24725"
+       id="image4814-3"
+       xlink:href="file:///O:/Chyt%C5%99ej%C5%A1%C3%AD%20kraj/01%20Kompetence%20z%C3%ADt%C5%99ka/06%2020%2020%20Moravskoslezsko/1%20P%C5%99%C3%ADsp%C4%9Bvky/_po-korekture_/04Klimek/DSC_0017-vyrez-uprav-1Klimek_upr.jpg"
+       height="553.14703"
+       width="415.1369"
+       clip-path="url(#clipPath5364)" />
+  </g>
+</svg>

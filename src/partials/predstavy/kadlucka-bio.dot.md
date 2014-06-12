@@ -1,3 +1,0 @@
-__O&nbsp;Romanu Kadlučkovi__
-
-Absolvent mezioborového studia na&nbsp;Vysoké škole dopravy a spojů v&nbsp;Žilině a doktorského studia v&nbsp;oboru Řízení a&nbsp;ekonomika podniku na&nbsp;Vysoké škole báňské – Technické univerzitě Ostrava. Od března 2011 je ředitelem Dopravního podniku Ostrava. Předtím působil ve&nbsp;vysokých manažerských pozicích ve&nbsp;společnostech SIEMENS Automobilové systémy, CIE Automotive, Krnovské opravny a&nbsp;strojírny. V&nbsp;roce 2009 jmenován externím hodnotitelem Ministerstva průmyslu a obchodu pro operační programy podnikání, inovace a&nbsp;eko-energie.

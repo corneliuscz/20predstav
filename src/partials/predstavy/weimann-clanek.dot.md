@@ -3,7 +3,7 @@
 
   <div>
     <h1>Jakub __Weimann__</h1>
-    <span>generální ředitel Bonatrans Group a.s.</span>
+    <span>generální ředitel BONATRANS GROUP a.s.</span>
   </div>
 </div>
 
