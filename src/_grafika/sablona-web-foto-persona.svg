@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="sablona-web-foto-persona.svg"
-   inkscape:export-filename="D:\wamp\www\20predstav\src\images\bublina-klimek.png"
+   inkscape:export-filename="D:\wamp\www\20predstav\app\assets\img\bublina-klimek.png"
    inkscape:export-xdpi="300.19354"
    inkscape:export-ydpi="300.19354">
   <defs
@@ -66,9 +66,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.0000002"
-     inkscape:cx="79.549814"
-     inkscape:cy="36.139431"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="43.483997"
+     inkscape:cy="47.580139"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,7 +134,7 @@
        x="-20.981098"
        y="876.45435" />
     <image
-       transform="translate(-44.92031,16.214484)"
+       transform="matrix(0.97696306,0,0,0.97696306,-42.470957,37.192412)"
        y="739.92505"
        x="-69.25"
        id="image3017"
@@ -142,5 +142,11 @@
        height="552.87427"
        width="414.93213"
        clip-path="url(#clipPath3020)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3767"
+       d="m 72.020878,901.40014 c 27.330444,-0.38182 53.693892,17.18479 64.043252,42.45909 11.20967,25.74704 4.72811,57.93677 -15.84712,77.13877 -10.35249,10.0067 -23.880782,16.6716 -38.136246,18.712 2.736278,3.0951 8.792237,7.5644 10.621064,8.6203 -31.260092,-0.3993 -62.973194,-15.1462 -80.807651,-41.2749 -13.9431215,-24.05193 -12.44387296,-56.41874 4.896537,-78.39822 12.913696,-17.02343 33.850699,-27.41036 55.230164,-27.25704 z"
+       style="fill:none;stroke:#88aa00;stroke-width:2;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="cccccccc" />
   </g>
 </svg>

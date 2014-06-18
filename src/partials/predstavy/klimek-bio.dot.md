@@ -1,0 +1,3 @@
+__O&nbsp;Petru Klimkovi__
+
+Starosta města Bílovce, 42&nbsp;let, bez politické příslušnosti. Vystudoval Gymnázium Mikuláše Koperníka v&nbsp;Bílovci a&nbsp;absolvoval 3&nbsp;roky studia na&nbsp;Univerzitě Palackého v&nbsp;Olomouci se zaměřením na&nbsp;anglický jazyk a&nbsp;tělesnou výchovu. Z&nbsp;důvodu pracovní nabídky studium přerušil a&nbsp;následně 16&nbsp;let pracoval ve&nbsp;firmě Peter Burwash International v&nbsp;USA, Kanadě, na&nbsp;Britských panenských ostrovech, ve Španělsku, Německu a Rakousku. V&nbsp;roce 2007 se vrátil zpět do rodného Bílovce. Je ženatý, má dvě dcery, Michaelu a Kateřinu. Mezi jeho koníčky patří golf, tenis, cyklistika a cestování.
