@@ -123,14 +123,25 @@ a:hover, a:active {
     color: $color-primary-quote;
 
     margin: 0;
+    border-top: 1px solid $color-primary-quote;
+    padding-top: 0.6em;
 
     @include media($weeny) {
-      font-size: 1.5em;
-      text-align: right;
+      font-size: 1.3em;
+      text-align: left;
 
       float: right;
       width: 48%;
-      margin: 0 0 0 1.618em;
+
+      margin: 0.2em -2em 1em 1.618em;
+    }
+
+    @include media($meeny) {
+      margin-right: 0em;
+    }
+
+    @include media($wide) {
+      margin-right: -2em;
     }
 
     p {

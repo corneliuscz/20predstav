@@ -50,10 +50,8 @@
       event.stopPropagation();
       event.preventDefault();
       if (content.hasClass('open')) {
-        console.log('close');
         close();
       } else {
-        console.log('open');
         open();
       }
     });
