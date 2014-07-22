@@ -1,0 +1,3 @@
+__O&nbsp;Janu Světlíkovi__
+
+Jan Světlík je generální ředitelem a předsedou představenstva VÍTKOVICE HOLDING, společnosti, která je hlavou skupiny VÍTKOVICE MACHINERY GROUP, největšího českého strojírenského seskupení. Působí rovněž jako prezident Národního strojírenského klastru. Je nositelem státního vyznamenání Za zásluhy v&nbsp;oblasti hospodářství a titulu Manažer roku 2012. Je autorem vize Nové Vítkovice, která přetváří někdejší brownfield Dolní oblast Vítkovice v&nbsp;živou součást města. Společně s&nbsp;architektem Josefem Pleskotem je propagátorem odpovědného spojení politiky, ekonomiky a architektury jako nutných podmínek rozvoje Ostravy.
