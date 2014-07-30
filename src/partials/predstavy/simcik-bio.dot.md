@@ -1,0 +1,3 @@
+__O&nbsp;Antonínu Šimčíkovi__
+
+Narodil se v&nbsp;roce 1973 v&nbsp;Uherském Hradišti, středoškolské vzdělání získal ve strojírenském oboru. Na&nbsp;Slezské univerzitě v&nbsp;Opavě vystudoval obor historie a muzeologie, poté zde působil jako laborant na&nbsp;pracovišti muzejní konzervace, od roku 2009 jako odborný asistent. V&nbsp;roce 2008 se stal manažerem Konzervátorského centra tamtéž. Vedle toho pracoval i&nbsp;pro Valašské muzeum v&nbsp;přírodě v&nbsp;Rožnově pod Radhoštěm či v&nbsp;Metodickém centru konzervace v&nbsp;Brně. Participoval na&nbsp;řešení výzkumných a rozvojových projektů, organizoval mezinárodní konference. Od ledna 2009 je ředitelem Slezského zemského muzea. Bydlí střídavě v&nbsp;Opavě a ve&nbsp;Frenštátě pod Radhoštěm.
