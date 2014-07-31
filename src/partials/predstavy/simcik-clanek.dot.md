@@ -3,7 +3,7 @@
 
   <div>
     <h1>Antonín __Šimčík__</h1>
-    <span>ředitel Slezského zemského muzea v Opavě</span>
+    <span>ředitel Slezského zemského muzea</span>
   </div>
 </div>
 
