@@ -1,0 +1,3 @@
+__O&nbsp;Jiřím Ciencalovi__
+
+Jiří Cienciala je zmocněncem vlády pro řešení problémů spojených s&nbsp;revitalizací Moravskoslezského a Ústeckého kraje. Ve&nbsp;vládě Jiřího Rusnoka působil jako ministr průmyslu a obchodu. Pochází z&nbsp;Vendryně na&nbsp;Třinecku, vystudoval Vysokou školu báňskou a poté pracoval přes 37&nbsp;let v&nbsp;Třineckých železárnách, nyní je členem dozorčí rady společnosti. V&nbsp;roce 2012 se stal rektorem Vysoké školy podnikání. V&nbsp;roce 2008 získal prestižní titul Manažer roku a letos získal polské manažerské ocenění Platinový vavřín. Je členem Rady vlády pro výzkum, vývoj a inovace a viceprezidentem Svazu průmyslu a dopravy ČR. Ve&nbsp;volném čase se věnuje myslivosti a vnučkám, občas hraje golf a lyžuje.
