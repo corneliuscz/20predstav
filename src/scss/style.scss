@@ -11,9 +11,9 @@
 // BOURBON+NEAT
 //----------------------------------*/
 
-@import "vendor/bourbon/bourbon"; // or "bourbon" when in Rails
+@import "vendor/bourbon/_bourbon.scss"; // or "bourbon" when in Rails
 @import "config/_grid-settings.scss";
-@import "vendor/neat/neat"; // or "neat" when in Rails
+@import "vendor/neat/_neat.scss"; // or "neat" when in Rails
 
 //----------------------------------*\
 // CONFIG MODULES
