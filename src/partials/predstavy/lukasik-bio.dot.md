@@ -1,0 +1,3 @@
+__O&nbsp;Petru Lukasíkovi__
+
+Petr Lukasík je generálním ředitelem společnosti Tieto Czech. Vystudoval obor Elektrotechnika a informatika na&nbsp;VŠB-TUO. V&nbsp;roce 2001 si otevřel vlastní IT firmu, o&nbsp;tři roky později pak nastoupil do vznikajícího IT centra společnosti Tieto v&nbsp;Ostravě. V&nbsp;roce 2009 se stal ředitelem pro oblast Business Intelligence a v&nbsp;roce 2011 se posunul do role generálního ředitele společnosti Tieto Czech s.r.o. Je zodpovědný za&nbsp;výsledky společnosti, kvalitu poskytovaných komplexních IT služeb a v&nbsp;neposlední řadě také za&nbsp;spokojenost více než dvou tisíců zaměstnanců.
