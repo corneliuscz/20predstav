@@ -1,0 +1,3 @@
+__O&nbsp;Ivo Vondrákovi__
+
+Ivo Vondrák je od roku 2010 rektorem VŠB-TUO. Profesuru získal v&nbsp;oboru Inženýrská informatika. Je autorem více než 130 odborných článků a&nbsp;řady učebnic. Mimo jiné je členem vědeckých rad VUT Brno, UP Olomouc a FIT ČVUT Praha. Od&nbsp;roku 2011 je členem Rady pro velké infrastruktury a&nbsp;také členem Rady vlády pro vědu, výzkum a&nbsp;inovace. Je ženatý, s&nbsp;manželkou Marcelou se oženil 23.&nbsp;listopadu 1985. Ve&nbsp;volných chvílích poslouchá kapely Pink Floyd, U2, Smashing Pumpkins&hellip; Jeho oblíbeným sportem je tenis, který také léta závodně hrál.
