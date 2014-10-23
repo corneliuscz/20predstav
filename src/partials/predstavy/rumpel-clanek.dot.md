@@ -3,7 +3,7 @@
 
   <div>
     <h1>Petr __Rumpel__</h1>
-    <span>vedoucí Katedry sociální geografie a regionálního rozvoje Přírodovědecké fakulty Ostravské univerzity</span>
+    <span>zástupce vedoucího Katedry sociální geografie a regionálního rozvoje Přírodovědecké fakulty Ostravské univerzity</span>
   </div>
 </div>
 
