@@ -1,0 +1,27 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="64" height="64">
+  <style>
+    .kruh{
+    color:  #000000;
+    fill:  none;
+    stroke:  #68a35b;
+    stroke-width:  7.99999952;
+    stroke-dashoffset:  201;
+    marker:  none;
+    visibility:  visible;
+    display:  inline;
+    overflow:  visible;
+    enable-background:  accumulate;
+
+    stroke-dasharray: 195;
+    stroke-dashoffset: 0;
+    animation: dash 5s linear forwards;
+    }
+
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 195;
+      }
+    }
+  </style>
+  <path d="M 32 5 A 27 27 0 0 1 32 59 27 27 0 1 1 32 5 z" class="kruh"/>
+</svg>

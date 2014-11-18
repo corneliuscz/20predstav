@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <title>Hlasujte pro nejlepší představu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="header-content">
+        <h1><img src="img/logo.svg" width="300" height="100"></h1>
+        <p>Odvážné myšlenky a dříve nevyřčené představy osobností a odborníků o naší budoucnosti a životě v Moravskoslezském kraji. Jak by měl kraj vypadat v roce 2020? A jak k tomu mohou pomoci peníze z evropských fondů?</p>
+
+        <h2>Klikni a hlasuj pro nejzajímavější představu jedné z hvězdných osobností našeho kraje</h2>
+      </div>
+    </div>
+    <div id="predstavy">
+      <div class="col" id="lobkowicz">
+        <a href="#" data-key="lobkowicz"> <img src="img/bublina-lobkowicz.png" width="64" height="69"></a>
+        <div class="jmeno">František Lobkowicz</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="weimann">
+        <a href="#" data-key="weimann"> <img src="img/bublina-weimann.png" width="64" height="69"></a>
+        <div class="jmeno">Jakub Weimann</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="birklen">
+        <a href="#" data-key="birklen"> <img src="img/bublina-birklen.png" width="64" height="69"></a>
+        <div class="jmeno">Petr Birklen</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="klimek">
+        <a href="#" data-key="klimek"> <img src="img/bublina-klimek.png" width="64" height="69"></a>
+        <div class="jmeno">Petr Klimek</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="simicek">
+        <a href="#" data-key="simicek"> <img src="img/bublina-simicek.png" width="64" height="69"></a>
+        <div class="jmeno">Petr Šimíček</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="sventek">
+        <a href="#" data-key="sventek"> <img src="img/bublina-sventek.png" width="64" height="69"></a>
+        <div class="jmeno">David Sventek</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="svetlik">
+        <a href="#" data-key="svetlik"> <img src="img/bublina-svetlik.png" width="64" height="69"></a>
+        <div class="jmeno">Jan Světlík</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="simcik">
+        <a href="#" data-key="simcik"> <img src="img/bublina-simcik.png" width="64" height="69"></a>
+        <div class="jmeno">Antonín Šimčík</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="cienciala">
+        <a href="#" data-key="cienciala"> <img src="img/bublina-cienciala.png" width="64" height="69"></a>
+        <div class="jmeno">Jiří Cienciala</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="kotik">
+        <a href="#" data-key="kotik"> <img src="img/bublina-kotik.png" width="64" height="69"></a>
+        <div class="jmeno">Petr Kotík</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="lukasik">
+        <a href="#" data-key="lukasik"> <img src="img/bublina-lukasik.png" width="64" height="69"></a>
+        <div class="jmeno">Petr Lukasík</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="vondrak">
+        <a href="#" data-key="vondrak"> <img src="img/bublina-vondrak.png" width="64" height="69"></a>
+        <div class="jmeno">Ivo Vondrák</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="rumpel">
+        <a href="#" data-key="rumpel"> <img src="img/bublina-rumpel.png" width="64" height="69"></a>
+        <div class="jmeno">Petr Rumpel</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="filipkova">
+        <a href="#" data-key="filipkova"> <img src="img/bublina-filipkova.png" width="64" height="69"></a>
+        <div class="jmeno">Zuzana Filipková</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+      <div class="col" id="silerova">
+        <a href="#" data-key="silerova"> <img src="img/bublina-silerova.png" width="64" height="69"></a>
+        <div class="jmeno">Jana Šilerová</div>
+        <div class="sloupec"></div>
+        <div class="hlasy"></div>
+      </div>
+    </div>
+    <div id="footer">
+      <img src="img/publicita.png">
+    </div>
+  </body>
+
+  <script src="json2.js"></script>
+  <script src="jquery-1.11.1.min.js"></script>
+  <script src="jstorage.js"></script>
+  <script>
+    $(function () {
+      "use strict";
+
+      var predstavy = [ 'lobkowicz',
+                       'weimann',
+                       'birklen',
+                       'klimek',
+                       'simicek',
+                       'sventek',
+                       'svetlik',
+                       'simcik',
+                       'cienciala',
+                       'kotik',
+                       'lukasik',
+                       'vondrak',
+                       'rumpel',
+                       'filipkova',
+                       'silerova'
+                      ],
+          tempValue = 0,
+          value     = 0,
+          id        = 0,
+          jmeno     = "",
+          minimum   =  100000,
+          maximum   = -100000,
+          data      = [],
+          maxvyska  = 800;
+
+      /*
+   *  Inicializace hodnot
+   */
+      $.each (predstavy, function(id, jmeno){
+        data[jmeno] = $.jStorage.get(jmeno);
+
+        if(!data[jmeno]) {
+          $.jStorage.set(jmeno, value);
+        }
+        else {
+          $('#'+ jmeno +' > .sloupec').css( "height", data[jmeno]+"px");
+          $('#'+ jmeno +' > .hlasy').text( data[jmeno] );
+        }
+      });
+
+      //$.jStorage.flush();
+
+      $('div.col').on('click', '[data-key]', function () {
+
+        var autor = $(this).attr('data-key');
+        tempValue = $.jStorage.get( autor );
+        tempValue++;
+
+        $.jStorage.set( autor, tempValue);
+        data[ autor ] = tempValue;
+
+        /*var arr = Object.keys( data ).map(function ( key ) { return data[key]; });
+    //var min = Math.min.apply( null, arr );
+    var max = Math.max.apply( null, arr );*/
+
+        //var timer = '<img src="img/spinner.gif" width="64" height="64" class="timer">';
+        //var timer = '<object type="image/svg+xml" data="img/circle.svg" class="timer"></object>';
+        var timer = '<div class="timer"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="64" height="64"><path d="M 32 5 A 27 27 0 0 1 32 59 27 27 0 1 1 32 5 z" class="kruh"/></svg><div id="counter">6</div></div>';
+        var puvodni = "<a href='#' data-key=" + autor + "> <img src='img/bublina-" + autor + ".png' width='64' height='69'></a>";
+
+        $('div#'+ autor + ' a').remove()
+
+/*
+         $('div#'+ autor)
+        .prepend(timer)
+        .delay(5000)
+        .queue(function(next) { $('div#'+ autor +' div.timer').remove(); $(this).prepend(puvodni); next(); });
+*/
+        $('div#'+ autor).prepend(timer);
+        $({countNum: $('#counter').text()}).animate({countNum: 1}, {
+          duration: 5000,
+          easing:'linear',
+          step: function() {
+            $('#counter').text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $('div#'+ autor +' div.timer').remove();
+            $('div#'+ autor).prepend(puvodni);
+          }
+        });
+
+        $('#'+autor+' > .sloupec').css( "height", tempValue+"px");
+        $('#'+autor+' > .hlasy').text( tempValue );
+      });
+    });
+
+  </script>
+</html>

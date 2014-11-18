@@ -1,0 +1,239 @@
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-ExtraLight.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-ExtraLight.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-ExtraLight.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-ExtraLightIt.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-ExtraLightIt.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-ExtraLightIt.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-ExtraLightIt.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-Light.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-Light.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-Light.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-LightIt.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-LightIt.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-LightIt.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-LightIt.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-Regular.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-Regular.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-Regular.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-It.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-It.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-It.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-It.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-Semibold.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-Semibold.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-Semibold.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-Semibold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-SemiboldIt.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-SemiboldIt.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-SemiboldIt.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-SemiboldIt.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-Bold.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-Bold.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-Bold.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-BoldIt.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-BoldIt.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-BoldIt.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-Black.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-Black.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-Black.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-Black.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Source Sans Pro';
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  src: url('fonts/EOT/SourceSansPro-BlackIt.eot') format('embedded-opentype'),
+    url('fonts/WOFF/OTF/SourceSansPro-BlackIt.otf.woff') format('woff'),
+    url('fonts/OTF/SourceSansPro-BlackIt.otf') format('opentype'),
+    url('fonts/TTF/SourceSansPro-BlackIt.ttf') format('truetype');
+}
+
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+div#header {
+}
+
+div#predstavy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  height: 600px;
+}
+
+div.col {
+  margin: 0 auto;
+  padding: 0 4px;
+  text-align: center;
+  width: 120px;
+}
+
+div.sloupec {
+  background-color: #68a35b;
+  width: 100%;
+}
+
+div.jmeno {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0.5em auto;
+}
+
+div.hlasy {
+  height: 2em;
+  color: #c0c0c0;
+  font-size: 0.9em;
+  margin: 0.5em auto;
+}
+
+div.timer {
+  position: relative;
+}
+
+div#counter {
+  position: absolute;
+  transform: translate(0%, -50%);
+  width: 100%;
+  top: 50%;
+
+  color: #68a35b;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.kruh{
+  color:  #000000;
+  fill:  none;
+  stroke:  #c0c0c0;
+  stroke-width:  7.99999952;
+  stroke-dashoffset:  201;
+  marker:  none;
+  visibility:  visible;
+  display:  inline;
+  overflow:  visible;
+  enable-background:  accumulate;
+
+  stroke-dasharray: 169.7;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 5s linear alternate infinite;
+  animation: dash 5s linear alternate infinite;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 169.7;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 169.7;
+  }
+}
+
+
+#footer {
+  margin: 2em 0;
+  text-align: center;
+}
