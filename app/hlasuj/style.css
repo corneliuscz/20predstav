@@ -202,6 +202,10 @@ div#counter {
   font-weight: bold;
 }
 
+img.qrkod {
+  margin: 0.5em auto;
+}
+
 .kruh{
   color:  #000000;
   fill:  none;
